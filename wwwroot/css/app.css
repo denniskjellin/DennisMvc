@@ -51,6 +51,15 @@ HEADER Components & styling
 	background-color: #ffffff;
 	border-bottom: solid 1px #d4d4d4;
 }
+
+/* img index page*/
+.net {
+height: 8rem;
+}
+
+.snow {
+	height: 15rem;
+}
 /*--------------------------
 Wrap around content + containers with content in
 -------------------------*/
@@ -151,7 +160,7 @@ Sidebar style --------------------
 	flex: 1 1 0;
 	max-width: 300px;
 	padding: 2rem 2rem;
-	background-color: #3b6064;
+	background-color: #370355e7;
 }
 
 .sidebar h3 {
@@ -204,7 +213,7 @@ Sidebar style --------------------
 */
 
 .footer-container {
-	background-color: #314547;
+	background-color: #220031;
     padding: 20px; /* adds padding around the content */
     text-align: center;
 	min-height: 5vh;
@@ -341,6 +350,9 @@ input[type=submit]:hover {
 	 .col-1, .col-2 {
 		flex: 100%;
 	 }
+	 .snow {
+		height: 12rem;
+	}
 }
 
 
