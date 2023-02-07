@@ -27,20 +27,14 @@
       </div>
       <aside class="sidebar">
         <h3>Menu</h3>
-@await Html.PartialAsync("_Navbar")
+@await Html.PartialAsync("_NavbarPartial")
       </aside>
         <main>
             @RenderBody()
         </main>
       </div>
     <script src="~/js/app.js"></script>
-    <div class="footer-container">
-      <footer>
-        <p>
-          Av Dennis Kjellin -
-          <a href="mailto:dekj2100@student.miun.se">Kontakta mig via e-post</a>
-        </p>
-      </footer>
+    @await Html.PartialAsync("_FooterPartial")
     </div>
   </body>
 </html>
