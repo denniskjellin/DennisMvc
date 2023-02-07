@@ -46,7 +46,7 @@ namespace DennisMvc.Controllers
             // Läs in data - igen o igen o igen o igen... :-)
             var jsonStr = System.IO.File.ReadAllText("destinations.json");
             var JsonObj = JsonConvert.DeserializeObject<List<Destinations>>(jsonStr);            
-            ViewBag.Destinations = "Whenever I have ben to one of the great Alp destinations I can add a destination to my list throug the form below! (This description is presented with 'ViewBag').";
+            ViewBag.Destinations = "Whenever I have ben to one of the great Alp destinations I can add a destination to my list through the form below! (This description is presented with 'ViewBag').";
             ViewBag.JsonObj = JsonObj;
 
             if (ModelState.IsValid)
