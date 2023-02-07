@@ -260,7 +260,7 @@ Sidebar style --------------------
 }
 
 /* form */
-input[type=text], select {
+input[type=text],[type="url"] , select {
   width: 100%;
   padding: .7rem 1rem;
   margin: 8px 0;
@@ -289,6 +289,13 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 1.2rem;
+}
+
+.text-danger {
+	color: red;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 1rem;
 }
 /*---------------------------------*/
 
